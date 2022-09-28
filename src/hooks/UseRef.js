@@ -8,8 +8,8 @@ function UseRef() {
     }
   return (
     <div>
-        <label for="css">CSbdjbdjbdjdbjdbjbS</label>
-        <input type="text" id="css" name="fav_language" />
+        {/* <label for="css">CSbdjbdjbdjdbjdbjbS</label>
+        <input type="text" id="css" name="fav_language" /> */}
         <br></br>
         <label for="name">Name</label>
         <input ref={inputRef} value={name} onChange={e=> setName(e.target.value)} />
